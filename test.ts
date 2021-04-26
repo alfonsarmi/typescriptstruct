@@ -10,6 +10,6 @@ interface NamedPerson {
     age: 24,
     hobbies: ['Programming', 'Cooking'],
     greet(lastName: string) {
-      console.log(`Hi, I am ${this.firstName} ${lastName}!`);
+      console.log(`Hi, I am ${this.firstName} ${lastName}!`); 
     }
   }
